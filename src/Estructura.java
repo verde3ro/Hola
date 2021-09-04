@@ -2,8 +2,8 @@ public class Estructura {
 	public static void main(String[] args) {
 		// Declaración de variables
 		int i = 0;
-		int[] arr = new int[] { 1, 2, 3, 4, 5, 6 };
-		String[] arr2 = new String[] { "Raúl", "Alejandro", "Verde", "Martínez" };
+		int[] arr = { 1, 2, 3, 4, 5, 6 };
+		String[] arr2 = { "Raúl", "Alejandro", "Verde", "Martínez" };
 		int[] arr3 = new int[10];
 
 		arr3[0] = 11;
@@ -56,5 +56,21 @@ public class Estructura {
 		for (int value : arr3) {
 			System.out.println("Value :: " + value);
 		}
+
+		// While
+		int x = 1;
+
+		while (x <= 4) {
+			System.out.println("Valor de x: " + x);
+			x++;
+		}
+
+		// do while
+		int y = 21;
+		do {
+			System.out.println("Valor de x: " + y);
+			y++;
+		} while (y < 20);
+
 	}
 }
