@@ -50,4 +50,6 @@ public class Arreglo {
 			System.out.println("Valor ::" + elemento);
 		}
 	}
+
+	// se agrega comentario verde3ro
 }
